@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;400&display=swap');
+html, body {
+	height: 100%
+}
+body {
+ background-color: #a3ceba;
+ box-sizing: border-box;
+ font-family: "Lato" , arial;
+ margin: 0;
+}
+.container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100%
+}
+.calc{
+	background-color: #2e3951;
+	border-radius: 15px;
+	display: flex;
+	flex-direction: column;
+	overflow: hidden;
+	width: 300px;
+}
+.screen-result {
+	background-color: #212b41;
+	color: #37b3b7;
+	font-size: 70px;
+	padding: 40px 15px 15px;
+	text-align: right;
+}
+.row {
+	display: flex;
+	justify-content: space-around;
+	padding: 10px;
+}
+.btn {
+	background-color: #2e3951;
+	border-radius: 50%;
+	border: none;
+	cursor: pointer;
+	font-size: 22px;
+	color: #96a8a0;
+	height: 40px;
+	outline: 0;
+	width: 40px;
+}
+.btn-clear {
+	cursor: default;
+	height: 30px;
+	height: 30px;
+}
+.btn-op {
+	background-color: #212b41;
+	color: #37b3b7;
+}
+.btn-equal {
+	background-color: #37b387;
+	color: #212b42;
+}
+.btn:hover {
+	background-color: cyan;
+}
+.btn:active {
+	background-color: #313e5a;
+}
+.btn-op:active {
+	background-color: #27324c;
+}
+.btn-equall:active {
+	background-color: #41ca99;
+}
