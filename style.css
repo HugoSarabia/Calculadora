@@ -27,7 +27,7 @@ body {
 	background-color: #212b41;
 	color: #37b3b7;
 	font-size: 70px;
-	padding: 40px 15px 15px;
+	padding: 40px 8px 15px;
 	text-align: right;
 }
 .row {
@@ -46,10 +46,10 @@ body {
 	outline: 0;
 	width: 40px;
 }
-.btn-clear {
-	cursor: default;
-	height: 30px;
-	height: 30px;
+.zero{
+	width: 120px;
+	border-radius: 10%;
+
 }
 .btn-op {
 	background-color: #212b41;
@@ -59,8 +59,11 @@ body {
 	background-color: #37b387;
 	color: #212b42;
 }
+.btn.btn-equal:hover {
+	background-color: #8e9edb;
+}
 .btn:hover {
-	background-color: cyan;
+	background-color: rgb(36, 42, 57);
 }
 .btn:active {
 	background-color: #313e5a;
@@ -68,6 +71,6 @@ body {
 .btn-op:active {
 	background-color: #27324c;
 }
-.btn-equall:active {
+.btn-equal:active {
 	background-color: #41ca99;
 }
